@@ -1,0 +1,43 @@
+.section__body {
+  margin: 1rem 0 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 858px;
+}
+
+.section h2 {
+  color: #ff6188;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1145px) {
+  .section__body {
+    max-width: 572px;
+  }
+}
+
+@media (max-width: 864px) {
+  .section__body {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .section h2 {
+    text-align: center;
+  }
+
+  .section__body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 660px) {
+  .section {
+    padding-top: 60px;
+  }
+
+  .app__content {
+    margin: 0;
+  }
+}
